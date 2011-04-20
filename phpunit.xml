@@ -1,0 +1,8 @@
+<phpunit>
+
+    <listeners>
+        <listener class="GladosListener" file="./GladosListener.php"></listener>
+    </listeners>
+
+</phpunit> 
+

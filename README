@@ -1,0 +1,153 @@
+Unit testing - for science
+==========================
+
+The glados test listener 
+
+**Instant cake based feedback for your unit testing needs**
+
+Picture Ideas welcome.
+
+Great Success
+=============
+
+    phpunit demoTestSuccess.php 
+    PHPUnit 3.5.13 by Sebastian Bergmann.
+
+    .
+
+    Time: 0 seconds, Memory: 6.25Mb
+
+    OK (1 test, 1 assertion)
+               N                     
+                N                    
+                 N                   
+                =Z                   
+            MM=:                 ,   
+         M MMMMMM       ?MMMM7ZM?    
+        M  MMMMMMDMM~      DM,  MMI  
+     ZMMD, MMMMMM   M   MD  ,MMMMMI  
+     MI    M ,:   M ,M?  $MMMMMMM7  
+     M OM~  MM   DM,  MMMMMMMM    :  
+     M        ,,  ,MMMMMMMD    MMMI  
+     M          MMMMMMM7    MMMMMMI  
+     M          MMMM=   +MMMMMMM$    
+     M          M    MMMMMMMM+   =I  
+     M            MMMMMMMM    MMMMI  
+     M          MMMMMMZ    MMMMMMMI  
+     M          MMM+   ~MMMMMMMO     
+     M          ,   7MMMMMMMI        
+     M           MMMMMMMM,           
+     ,M         MMMMMO               
+        MM7     MMI                  
+
+    CONTINUE TESTING!
+
+Skipped Tests? You Monster!
+===========================
+
+    phpunit demoTestSkipped.php 
+    PHPUnit 3.5.13 by Sebastian Bergmann.
+
+    S
+
+    Time: 0 seconds, Memory: 6.25Mb
+
+    OK, but incomplete or skipped tests!
+    Tests: 1, Assertions: 0, Skipped: 1.
+                $$:  $$$$$$$$$Z             
+              7$$$$$$  +$$$$$$$$$$           
+           ,$$$$$$$$$$Z  Z$\Z$$$$$$  $,       
+          $$$$$$$$$$$$$$~  $$$$$$$  $$$      
+         $$$$$$$$$$$$$$$$$  ?Z$$$$  $$$$+    
+                              $$$$  $$$$$I   
+      ,$$$$$$$$7$=             +$7  $$$$$$   
+      $$$$$$$$$Z                 Z  $$$$$$$  
+     7$$$$$$$$                      $$$$$$$$ 
+     $$$$$$$Z                       $$$$$$   
+     $$$$$7         SKIPPED         $$$$$  Z~
+     $$$$+  $         OR            $$$  +$$7
+     $$$  $$$       INCOMPLETE      $~  $$$$$
+     7   Z$$$                         Z$$$$$+
+       7$$$$$                        $$$$$$$ 
+     :$$Z$$$$                      $$$$$$$$$ 
+      $$$$$$$  +                 +$$$$$$$$$  
+      +$$$$$$  $$               $$$$$$$$$$?  
+       Z$$$$$  $$$Z                          
+        ~$$$$  $$$$$+  $$$$$$$$$$$$$$$$$$    
+          $$$  $$$$$$$  ~$$$$$$$$$$$$$$      
+           $$  $$$$$$$$+  7Z$$$$$$$$$Z       
+               $$$$$$$$$$  :$$$$$$$=         
+                =$$$$$$$$$Z  Z$$$            
+                      ?7$7I                  
+
+    CONTINUE TESTING!
+
+If at first you don't succeed - You fail
+========================================
+
+(Well or you are using tdd, in that case carry on please)
+
+     phpunit demoTestFailure.php 
+    PHPUnit 3.5.13 by Sebastian Bergmann.
+
+    F
+
+    Time: 0 seconds, Memory: 6.50Mb
+
+    There was 1 failure:
+
+    1) demoTestFailure::testSucess
+    Failed asserting that <boolean:false> is true.
+
+    /.../demoTestFailure.php:6
+
+    FAILURES!
+    Tests: 1, Assertions: 1, Failures: 1.
+            .                       
+             .==:.             
+             ====I~            
+            ~~=====            
+           ~=+~===$=           
+           =========           
+           ~~===~====          
+          ~~~~==~~===.         
+          ~~====: ===.         
+          ~=====: ~~=          
+          O======+IN+          
+         ?=======+$N+         
+       ~?Z~~=====~=+=          
+       ?? ~~~~=======          
+        N .~~===~==+=.         
+       .D. ~~~======           
+        D   ~====$+?           
+       OD   ===+I7Z+++++.      
+       D8   ++=   .O8  =++=    
+       D8   =+++        +=D.   
+       N    ====         ..O   
+       N.     D.           8   
+             .ZO            8  
+              +8           .8  
+              ,8            :O 
+              O8            .D 
+              .D               
+               D               
+               :.              
+               8               
+
+    CONTINUE TESTING!
+
+
+
+CONTINUE TESTING
+================
+
+continue testing, continue testing, continue testing, continue testing, continue testing, continue testing, 
+continue testing, continue testing, continue testing, continue testing, continue testing, continue testing, 
+continue testing, continue testing, continue testing, continue testing, continue testing, continue testing, 
+continue testing, continue testing, continue testing, continue testing, continue testing, continue testing, 
+continue testing, continue testing, continue testing, continue testing, continue testing, continue testing, 
+continue testing, continue testing, continue testing, continue testing, continue testing, continue testing, 
+continue testing, continue testing, continue testing, continue testing, continue testing, continue testing, 
+continue testing, continue testing, continue testing, continue testing, continue testing, continue testing, 
+continue testing, continue testing, continue testing, continue testing, continue testing, continue testing! 
+
